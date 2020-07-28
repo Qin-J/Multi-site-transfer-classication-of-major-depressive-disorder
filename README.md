@@ -1,1 +1,1 @@
-# Multi-site-transfer-classication-of-major-depressive-disorder
+# Multi-site-transfer-classification-of-major-depressive-disorder
