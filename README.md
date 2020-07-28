@@ -3,26 +3,26 @@ The core code for article "Multi-site-transfer-classification-of-major-depressiv
 
 ## System Requirements
 
-  * Software requirements
+### Software requirements
 
 The package has been tested on the Ubuntu 18.04, Python 3.6 and Matlab 2009
 
-  * Python Dependencies
-This project mainly depends on the following Python stack.
+### Python Dependencies
+This project mainly depends on the following Python stack. \<br>
 
-pytorch 1.4.0
-numpy
-sklearn
-scipy
-h5py
-argparse
-os
-time
-warnings
+pytorch 1.4.0 \<br>
+numpy \<br>
+sklearn \<br>
+scipy \<br>
+h5py \<br>
+argparse \<br>
+os \<br>
+time \<br>
+warnings \<br>
 
 ## Usage
-* 1. For GCN and GCNSP models:
-** 1.1 For multi-site pooling classification, please run in Linux terminal:
+### 1. For GCN and GCNSP models:
+#### 1.1 For multi-site pooling classification, please run in Linux terminal:
 
 ```python train_fmridata_MDD_simple.py --method=GCNSP --train_or_test=train --datadir=${datapath} --pretrain_dir=${pretrain_path} --cuda=0```
 
@@ -32,21 +32,21 @@ where, --method denotes the used model (GCN or GCNSP). --train_or_test denotes t
 For an example of test mode, please run in Linux terminal: 
 ```demo_multi_site_pooling_classification.sh```
 
-** 1.2 For For multi-site transfer learning classification, please run in Linux terminal:
+#### 1.2 For For multi-site transfer learning classification, please run in Linux terminal:
 
 ```python train_fmridata_transfer_leave_site_out_allAtlas_MDD.py --method=GCNSP --train_or_test=train --datadir=${datapath} --pretrain_dir=${pretrain_path} --cuda=0``` 
 
 For an example of test mode, please run in Linux terminal: 
 ```demo_multi_site_transfer_classification.sh```
 
-* 2. For RFE-LDA, RFE-LR, and RFE-SVM models:
+### 2. For RFE-LDA, RFE-LR, and RFE-SVM models:
 
-** 2.1 For multi-site pooling classification, please run in Matlab:
+#### 2.1 For multi-site pooling classification, please run in Matlab:
 
 ```./LDA_LR_SVM_models_matlab_code/demo_multisite_pooling_classification_multimodels.m```
 
 
-** 2.2 For single site classification via RFE-SVM, please run in Matlab:
+#### 2.2 For single site classification via RFE-SVM, please run in Matlab:
 
 ```./LDA_LR_SVM_models_matlab_code/demo_single_site_classification_RFE_SVM.m```
 
