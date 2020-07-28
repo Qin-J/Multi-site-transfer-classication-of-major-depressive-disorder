@@ -8,7 +8,7 @@ The core code for article "Multi-site-transfer-classification-of-major-depressiv
 The package has been tested on the Ubuntu 18.04, Python 3.6 and Matlab 2009
 
 >### Python Dependencies
-This project mainly depends on the following Python stack. <br>
+This project mainly depends on the following Python stack: <br>
 
 pytorch 1.4.0 <br>
 numpy <br>
@@ -51,7 +51,7 @@ For an example of test mode, please run in Linux terminal: <br>
 ```./LDA_LR_SVM_models_matlab_code/demo_single_site_classification_RFE_SVM.m```
 
 
-Note that: For the above scripts, to get the results of our paper, you need to download the data (https://pan.baidu.com/s/112X8Ogs4oDJnU8lxcb3pWg, with the extraction code of x3sv.), then decompress it, then set the datapath in the scripts, and finally run the scripts.
+Note that: For the above scripts, to get the results of our paper, you need to download the data (https://pan.baidu.com/s/112X8Ogs4oDJnU8lxcb3pWg, with the extraction code of x3sv), then decompress it, then set the datapath in the scripts, and finally run the scripts.
 
 ## License
 This project is covered under the Apache 2.0 License.
