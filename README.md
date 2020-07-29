@@ -32,7 +32,7 @@ where, --method denotes the used model (GCN or GCNSP). --train_or_test denotes t
 For an example of test mode, please run in Linux terminal: <br> 
 ```demo_multi_site_pooling_classification.sh```
 
->>#### 1.2 For For multi-site transfer learning classification, please run in Linux terminal:
+>>#### 1.2 For multi-site transfer learning classification, please run in Linux terminal:
 
 ```python train_fmridata_transfer_leave_site_out_allAtlas_MDD.py --method=GCNSP --train_or_test=train --datadir=${datapath} --pretrain_dir=${pretrain_path} --cuda=0``` 
 
